@@ -5,7 +5,7 @@ def valid_move?(board, index)
   elsif !board[index]
     false
   elsif position_taken?
-    false
+    false || nil
   end
 
 end
